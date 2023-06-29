@@ -1,0 +1,10 @@
+﻿{
+  "labelPolicy": {
+    "name": "LabelPolicy_demo_1",
+    "comment": "LabelPolicy_demo_1 Description",
+    "ExchangeLocation" : "All",
+    "labels": [
+        {"name": "Label_demo_1"}
+    ]
+  }
+}
