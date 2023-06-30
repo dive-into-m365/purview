@@ -1,0 +1,40 @@
+﻿{
+  "label": {
+    "name": "Label_demo_2",
+    "displayName": "Label_demo_2_DisplayName",
+    "tooltip": "Label_demo_2_Tooltip",
+    "comment": "Label_demo_2_Comment",
+    "contentType" : "File, Email",
+    "advancedsettings": [
+        {"key": "color", "value": "#7160E8"}
+    ],
+    "contentmarking": {
+      "watermark":{
+        "ApplyWaterMarkingEnabled": true,
+        "ApplyWaterMarkingText": "Demo 2",
+        "ApplyWaterMarkingFontSize": "10",
+        "ApplyWaterMarkingFontName": "Courier New", 
+        "ApplyWaterMarkingFontColor": "#000000",
+        "ApplyWaterMarkingLayout": "Diagonal"
+      },
+      "header": {
+        "ApplyContentMarkingHeaderEnabled": true,   
+        "ApplyContentMarkingHeaderText": "Header Demo 2",
+        "ApplyContentMarkingHeaderAlignment": "Left",
+        "ApplyContentMarkingHeaderFontColor": "#000000",
+        "ApplyContentMarkingHeaderFontName": "Courier New", 
+        "ApplyContentMarkingHeaderFontSize": "12",
+        "ApplyContentMarkingHeaderMargin": "10"
+      },
+      "footer":{
+        "ApplyContentMarkingFooterEnabled": true,  
+        "ApplyContentMarkingFooterText": "Footer Demo 2",
+        "ApplyContentMarkingFooterAlignment": "Left",
+        "ApplyContentMarkingFooterFontColor": "#000000",
+        "ApplyContentMarkingFooterFontName": "Courier New", 
+        "ApplyContentMarkingFooterFontSize": "14",
+        "ApplyContentMarkingFooterMargin": "15"
+      }
+    }
+  }
+}
