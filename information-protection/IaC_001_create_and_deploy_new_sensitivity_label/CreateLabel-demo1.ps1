@@ -8,7 +8,7 @@
      return $s
 }
     
-$path = "C:\m365\repository\purview\article001_IaC_create_and_deploy_new_label\"
+$path = "C:\m365\repository\purview\information-protection\IaC_001_create_and_deploy_new_sensitivity_label\article001_IaC_create_and_deploy_new_label\"
 
 try {
     $file_label = "Label-demo-1.json"
@@ -42,10 +42,10 @@ try {
     Write-Host "Create a new label: " $ConfigLabel.label.name
     New-Label -Name $ConfigLabel.label.name -DisplayName $ConfigLabel.label.displayName -comment $ConfigLabel.label.comment -ContentType $ConfigLabel.label.contentType -Tooltip $ConfigLabel.label.tooltip 
 
+    $s=prepareLabelSettings $ConfigLabel.label.advancedsettings
+
     Write-Host "Update a new label: " $ConfigLabel.label.name
     Set-Label -Identity $ConfigLabel.label.name -AdvancedSettings $s
-            
-    $s=prepareLabelSettings $ConfigLabel.label.advancedsettings
 
     New-LabelPolicy -name $ConfigLabelPolicy.labelPolicy.name -comment $ConfigLabelPolicy.labelPolicy.comment -Label $ConfigLabelPolicy.labelPolicy.labels[0].name -ExchangeLocation $ConfigLabelPolicy.labelPolicy.ExchangeLocation
 

@@ -1,0 +1,12 @@
+﻿{
+  "label": {
+    "name": "Label_demo_1",
+    "displayName": "Label_demo_1_DisplayName",
+    "tooltip": "Label_demo_1_Tooltip",
+    "comment": "Label_demo_1_Comment",
+    "contentType" : "File, Email",
+    "advancedsettings": [
+        {"key": "color", "value": "#7160E8"}
+    ]
+  }
+}
