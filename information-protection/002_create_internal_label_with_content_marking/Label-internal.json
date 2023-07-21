@@ -1,0 +1,40 @@
+﻿    {
+      "label": {
+        "name": "internal",
+        "displayName": "internal",
+        "tooltip": "internal Tooltip",
+        "comment": "internal Comment",
+        "contentType" : "File, Email",
+        "advancedsettings": [
+            {"key": "color", "value": "#7160E8"}
+        ],
+        "contentmarking": {
+          "watermark":{
+            "ApplyWaterMarkingEnabled": true,
+            "ApplyWaterMarkingText": "internal Usage",
+            "ApplyWaterMarkingFontSize": "10",
+            "ApplyWaterMarkingFontName": "Courier New", 
+            "ApplyWaterMarkingFontColor": "#000000",
+            "ApplyWaterMarkingLayout": "Diagonal"
+          },
+          "header": {
+            "ApplyContentMarkingHeaderEnabled": true,   
+            "ApplyContentMarkingHeaderText": "internal Usage",
+            "ApplyContentMarkingHeaderAlignment": "Left",
+            "ApplyContentMarkingHeaderFontColor": "#000000",
+            "ApplyContentMarkingHeaderFontName": "Courier New", 
+            "ApplyContentMarkingHeaderFontSize": "12",
+            "ApplyContentMarkingHeaderMargin": "10"
+          },
+          "footer":{
+            "ApplyContentMarkingFooterEnabled": true,  
+            "ApplyContentMarkingFooterText": "internal Usage",
+            "ApplyContentMarkingFooterAlignment": "Left",
+            "ApplyContentMarkingFooterFontColor": "#000000",
+            "ApplyContentMarkingFooterFontName": "Courier New", 
+            "ApplyContentMarkingFooterFontSize": "14",
+            "ApplyContentMarkingFooterMargin": "15"
+          }
+        }
+      }
+    }

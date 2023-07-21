@@ -1,0 +1,12 @@
+﻿{
+  "labelPolicy": {
+    "name": "ConfidentialLabelPolicy",
+    "comment": "ConfidentialLabelPolicy Description",
+    "ExchangeLocation" : "All",
+    "labels": [
+        {"name": "Confidential"},
+        {"name": "Confidential_AllEmployees"},
+        {"name": "Confidential_Trusted_people"}
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "label": {
+    "name": "public",
+    "displayName": "public",
+    "tooltip": "public",
+    "comment": "public",
+    "contentType" : "File, Email",
+    "advancedsettings": [
+        {"key": "color", "value": "#7160E8"}
+    ]
+  }
+}

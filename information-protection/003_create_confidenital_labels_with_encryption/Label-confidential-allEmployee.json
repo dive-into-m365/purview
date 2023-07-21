@@ -1,0 +1,34 @@
+﻿{
+  "label": {
+    "name": "Confidential_AllEmployees",
+    "displayName": "All Employees",
+    "tooltip": "All Employees tooltip",
+    "comment": "All Employees comment",
+    "contentType" : "File, Email",
+    "advancedsettings": [
+        {"key": "color", "value": "#7160E8"}
+    ],
+    "parentLabel": "Confidential",
+    "encryption": {
+        "EncryptionEnabled": true,
+        "EncryptionProtectionType": "Template",
+        "adminDefinedPermissions": {
+            "EncryptionContentExpiredOnDateInDaysOrNever": "Never",
+            "EncryptionOfflineAccessDays": "-1", 
+            "EncryptionRightsDefinitions": "diveintom365.onmicrosoft.com:VIEW,VIEWRIGHTSDATA,DOCEDIT,EDIT,PRINT,EXTRACT,REPLY,REPLYALL,FORWARD,OBJMODEL"
+        }
+    },
+    "contentmarking": {
+          "header": {
+            "ApplyContentMarkingHeaderEnabled": true,   
+            "ApplyContentMarkingHeaderText": "Confidential - All Employees",
+            "ApplyContentMarkingHeaderAlignment": "Left",
+            "ApplyContentMarkingHeaderFontColor": "#000000",
+            "ApplyContentMarkingHeaderFontName": "Courier New", 
+            "ApplyContentMarkingHeaderFontSize": "12",
+            "ApplyContentMarkingHeaderMargin": "10"
+          }
+    }
+  }
+}
+

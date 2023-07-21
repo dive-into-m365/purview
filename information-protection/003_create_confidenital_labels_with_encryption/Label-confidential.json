@@ -1,0 +1,13 @@
+﻿{
+  "label": {
+    "name": "Confidential",
+    "displayName": "Confidential",
+    "tooltip": "Confidential tooltip",
+    "comment": "Confidential comment",
+    "contentType" : "File, Email",
+    "advancedsettings": [
+        {"key": "color", "value": "#C239B3"}
+    ]
+  }
+}
+

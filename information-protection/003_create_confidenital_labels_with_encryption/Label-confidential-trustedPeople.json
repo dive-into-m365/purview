@@ -1,0 +1,50 @@
+﻿{
+  "label": {
+    "name": "Confidential_Trusted_people",
+    "displayName": "Trusted people",
+    "tooltip": "Trusted people tooltip",
+    "comment": "Trusted people comment",
+    "contentType" : "File, Email",
+    "advancedsettings": [
+        {"key": "color", "value": "#C239B3"}
+    ],
+    "parentLabel": "Confidential",
+    "encryption": {
+        "EncryptionEnabled": true,
+        "EncryptionProtectionType": "UserDefined",
+        "userDefinedPermissions": {
+            "EncryptionPromptUser": true,
+            "EncryptionDoNotForward": true
+        }
+    },
+    "contentmarking": {
+          "watermark":{
+            "ApplyWaterMarkingEnabled": true,
+            "ApplyWaterMarkingText": "Confidential",
+            "ApplyWaterMarkingFontSize": "10",
+            "ApplyWaterMarkingFontName": "Courier New", 
+            "ApplyWaterMarkingFontColor": "#000000",
+            "ApplyWaterMarkingLayout": "Diagonal"
+          },
+          "header": {
+            "ApplyContentMarkingHeaderEnabled": true,   
+            "ApplyContentMarkingHeaderText": "Confidential - Limited usage",
+            "ApplyContentMarkingHeaderAlignment": "Left",
+            "ApplyContentMarkingHeaderFontColor": "#000000",
+            "ApplyContentMarkingHeaderFontName": "Courier New", 
+            "ApplyContentMarkingHeaderFontSize": "12",
+            "ApplyContentMarkingHeaderMargin": "10"
+          },
+          "footer":{
+            "ApplyContentMarkingFooterEnabled": true,  
+            "ApplyContentMarkingFooterText": "Confidential - Limited usage",
+            "ApplyContentMarkingFooterAlignment": "Left",
+            "ApplyContentMarkingFooterFontColor": "#000000",
+            "ApplyContentMarkingFooterFontName": "Courier New", 
+            "ApplyContentMarkingFooterFontSize": "14",
+            "ApplyContentMarkingFooterMargin": "15"
+          }
+    }
+  }
+}
+

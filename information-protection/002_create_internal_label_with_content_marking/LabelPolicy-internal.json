@@ -1,0 +1,10 @@
+﻿{
+  "labelPolicy": {
+    "name": "internalLabelPolicy",
+    "comment": "Internal Label Policy Description",
+    "ExchangeLocation" : "All",
+    "labels": [
+        {"name": "internal"}    
+    ]
+  }
+}
