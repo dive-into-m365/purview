@@ -80,7 +80,7 @@ try {
 
     #Possible values: SilentlyContinue, Continue
     $DebugPreference = "Continue"
-    $upn="<upn>"
+    $upn=$Env:DIVE_INTO_M365_UPN
 
     #load config files.
 	$internalLabel = loadJSONFile("Label-internal.json")
