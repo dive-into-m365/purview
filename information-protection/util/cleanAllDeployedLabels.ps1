@@ -31,7 +31,7 @@ Function deleteAllParentLabels
     return $flag
 }
 
-$upn="<upn>"
+$upn=$Env:DIVE_INTO_M365_UPN
 
 connect-IPPSSession -UserPrincipalName $upn
 deleteAllLabelPolicies 
